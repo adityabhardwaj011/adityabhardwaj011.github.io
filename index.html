@@ -3,21 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aditya's webpage</title>
+    <style>
+        * {
+            margin: 0px
+        }
+
+        .container {
+            background-color: red;
+        }
+
+        .row {
+            background-color: rgb(171, 210, 181);
+            display: flex;
+            justify-content: space-between  
+        }
+
+        .box {
+            background-color: grey;
+            padding: 10px;
+        }
+
+        .row1 {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            height: 300px;
+            align-items: center;
+            background-color: blanchedalmond;
+            color: rgb(196, 53, 146);
+        }
+        .row2 {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            height: 300px;
+            align-items: center;
+            background-color: silver;
+
+        }
+    </style>
 </head>
+
 <body>
-    <h1>praveen</h1>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
-    <hr>
-    <h3>My name is praveen. I am a Teacher and i'm good at it</h3>
-    <img src="https://picsum.photos/seed/picsum/200/300">
-    <hr>
-<h4>@copyright 2024</h4>
+    <div>
+        <div class="row">
+            <div>
+                <h1>Aditya Bhardwaj</h1>
+            </div>
+            <div><a href="#">Home</a> | <a href="#">Project</a>
+                | <a href="#">Contact</a> | <a href="#">About</a>
+                | <a href="#">Services</a>
+            </div>
+        </div>
+        <div class="row1">
+            <div>
+                <h1>Aditya Bhardwaj</h1>
+                <h2>Full stack developer</h2>
+            </div>
+            <div><img src="https://picsum.photos/200/300?grayscale"></div>
+        </div>
 
+        <div class="row2">
+            <div>
+                <h1>projects</h1>
+                <ol>
+                    <li>project 1</li>
+                    <li>project 2</li>
+                </ol>
+            </div>
 
-    
+        </div>
+        
+    </div>
 </body>
+
 </html>
