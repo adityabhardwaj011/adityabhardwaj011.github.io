@@ -5,7 +5,13 @@
 }
 
 .container {
+    position: fixed;
+    overflow: auto;
     background-color: red;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .row {
@@ -25,7 +31,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    height: 700px;
+    height: 100%;
     align-items: center;
     background-color: blanchedalmond;
     color: rgb(255, 255, 255);
@@ -35,7 +41,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    height: 700px;
+    height: 100%;
     align-items: center;
     background-color: white;
 
@@ -45,7 +51,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    height: 700px;
+    height: 100%;
     align-items: center;
     background-color: blanchedalmond;
 
@@ -65,7 +71,7 @@
 .box1 {
     margin: 10px;
     padding: 20px;
-    height: 500px;
+    /* height: 500px; */
     width: 250px;
     background-color: white;
     color: black;
